@@ -1,0 +1,89 @@
+* {
+  margin:0px;
+  padding:0px;
+ }
+ h1{
+ font: bold 20px Tahoma;
+ }
+ h2{
+ font: bold 14px Tahoma;
+ }
+ header, section, footer, aside, nav, article, hgroup
+ {
+	display: block;
+}
+body{
+	text-align:center;
+	background-image: url(earth.jpg);
+}
+#big_wrapper{
+	border: 1px solid aqua;
+	width: 1000px;
+	text-align:left;
+	background:#7887AB;
+}
+
+#top_header{
+	background:fuschia;
+	border:1px solid aqua;
+	padding:20px;
+}
+#top_menu{
+	background:white;
+	color:lime;
+}
+#top_menu li{
+	float: left;
+}
+#top_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#top_menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#top_menu li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+#main_section{
+	float:left;
+	width:660px;
+	margin:30px; /* 720px - 280px  left*/
+}
+#side_news{
+	float:left;
+	width:220px;
+	margin:20px 0px;
+	padding:30px;
+	background:#CCFFFF;
+}
+#page_footer{
+	clear:both; 
+	text-align:center;
+	padding:20px;
+	border-top:2px solid aqua;
+	background-color: #4CAF50;
+}
+article{
+	background:#CCFFFF;
+	border:1px solid aqua;
+	padding:20px;
+	margin-top:15px;
+	color: blue;
+}
+article footer{
+	text-align:right;
+}
