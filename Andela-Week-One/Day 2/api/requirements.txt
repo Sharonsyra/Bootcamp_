@@ -1,0 +1,5 @@
+httplib2==0.10.3
+apiclient==1.0.3
+pip install --upgrade google-api-python-client
+
+
